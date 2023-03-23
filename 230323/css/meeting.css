@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+
+#wrap{
+    position: relative;
+    width: 100%;
+    min-width: 1100px;
+    background-attachment: fixed;
+}
+
+.t_wrap {
+    position: relative;
+    width: 65%;
+    min-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 50px;
+    bottom: 15.8px;
+}
+
+
+#container{
+    position: relative;
+    width: 100%;
+    min-width: 1100px;
+    top: 50px;
+    height: auto;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+/* 게시판 영역 */
+
+caption {
+    text-indent:-10000px;
+}
+
+
+.t_list {
+    width: 100%;
+    border-top: 2px solid rgb(67, 68, 67);
+    margin: 0 auto;
+}
+
+.t_list thead {
+    background: #ccc;
+}
+
+.t_list tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.t_list th,
+.t_list td {
+    padding: 15px;
+    font-size: 15px;
+}
+
+.t_list td {
+    text-align: center;
+}
+
+.t_list .t_title {
+    text-align: left;
+}
+
+.t_list .t_title a:hover {
+    color: #ccc;
+}
+
+
+/* 페이지 영역 */
+
+#page {
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    top : 80px;
+}
+
+#page a {
+    width: 26px;
+    height: 26px;
+}
+
+#page a.bt {
+    padding-top: 7px;
+}
+
+#page a.num {
+    padding-top: 6px;
+}
+
+#page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-left: 0;
+    line-height: 100%;
+}
+
+#page a.btn_prev, a.btn_next {
+    padding-top: 7px;
+    font-size: 15px;
+    letter-spacing: -2px;
+}
+#page a.num {
+    padding-top: 9px;
+    font-size: 15px;
+}
+
+#page a.num.click {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+#page a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+/* 검색, 글쓰기버튼영역 */
+
+#btn_wrap {
+    text-align: right;
+    margin-top: 100px;
+}
+
+#btn_wrap .search_btn, .write_btn{
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 15px; 
+    cursor: pointer;   
+}
+
+#btn_wrap .search_content{
+    padding: 6px;
+}
+
